@@ -13,4 +13,4 @@ def test_calculate_area_square_list():
     with pytest.raises(TypeError):  
         calculate_area_square([2])
 def test_calculate_area_square_valid():
-    assert calculate_area_square(5) == 27
+    assert calculate_area_square(5) == 25
